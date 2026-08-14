@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
-import { 
-  Bird, 
-  Package, 
-  DollarSign, 
-  Plus, 
-  TrendingUp, 
-  AlertTriangle, 
-  CheckCircle2, 
-  XCircle,
+import {
+  Bird,
+  DollarSign,
+  Plus,
+  AlertTriangle,
+  CheckCircle2,
   RefreshCw,
-  Search,
-  Check
+  Search
 } from 'lucide-react';
 import { useRealtimeSync } from './hooks/useRealtimeSync';
 import { supabase } from './lib/supabase';
